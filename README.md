@@ -51,27 +51,16 @@ This project implements a complete resume screening pipeline, capable of:
 
 ## 🔄 System Workflow
 
-        +------------------------+
-        |   Upload Resume (PDF)  |
-        +------------------------+
-                   ↓
-      [Text Extraction (PyPDF2)]
-                   ↓
-     [TF-IDF Vectorization + ML]
-                   ↓
-      +------------------------+
-      |  Resume Categorization  |
-      +------------------------+
-                   ↓
-      [Job Recommendation Logic]
-                   ↓
-   +--------------------------------+
-   | Extract Name, Email, Phone etc.|
-   +--------------------------------+
-                   ↓
-   +-------------------------------+
-   |   Output on Web Interface     |
-   +-------------------------------+
+| Step Description                          |
+|------------------------------------------|
+| Upload Resume (PDF)                       |
+| Text Extraction using PyPDF2             |
+| TF-IDF Vectorization and ML Prediction   |
+| Resume Categorization                     |
+| Job Role Recommendation Logic            |
+| Extract Name, Email, Phone, Skills, etc. |
+| Display Output on Web Interface           |
+
 
 ## 🛠️ Tech Stack
 
