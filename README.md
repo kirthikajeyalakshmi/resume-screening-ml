@@ -103,36 +103,10 @@ This project implements a complete resume screening pipeline, capable of:
 - ✅ Web Interface Output  
   Clean and readable results displayed in the browser  
 
-## ⚙️ Installation & Setup
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/your-username/resume-screening-ml.git
-cd resume-screening-ml
-
-### Step 2: Create a Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-### Step 3: Install Dependencies
-
- pip install -r requirements.txt
-
-### Step 4: Run the Flask Application
-
- python app.py
-
-Step 5: Open in Browser
-Visit: http://127.0.0.1:5000/
-
-
-
-### 🚧 Limitations
+## 🚧 Limitations
 - Job recommendation model is based on limited data and simple rules
-- Categorization may fail or mislabel resumes outside of training distribution
-- Extraction accuracy can vary depending on formatting in resumes
+- Resume categorization may fail or mislabel resumes outside of training distribution
+- Extraction accuracy can vary depending on resume formatting
 - Name detection may be imprecise if the resume format is non-standard
+
 
